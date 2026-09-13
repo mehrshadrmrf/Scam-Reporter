@@ -148,6 +148,5 @@ For production deployments, **these fields must be protected with additional sec
 3. Store `SECRET_KEY`, database credentials, MinIO credentials, and other secrets in a dedicated Secret Manager such as Vault or AWS Secrets Manager rather than keeping production secrets in `.env` files.
 
 > **Important:** The current implementation should not be considered production-ready until appropriate encryption, access controls, secret management, monitoring, and legal requirements have been addressed.
-
 ```
 ```
